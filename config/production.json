@@ -1,0 +1,12 @@
+{
+	"rdsDb":{
+	  	"host": "172.16.0.40",
+	  	"port":"1433",
+	  	"dialect": "mssql",
+		"pool": {
+			"max": 5,
+			"min": 0,
+			"idle": 10000
+		}
+	}
+}
